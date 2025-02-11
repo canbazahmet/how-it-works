@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Its Works</title>
+    <!-- Normalize -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      rel="stylesheet"
+    />
+    <!-- Normalize Bitti -->
+    <!-- Main Css -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Main Css Bitti -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts Bitti -->
+  </head>
+  <body>
+    <!-- How It Works -->
+    <section class="how-it-works">
+      <div class="how-it-container">
+        <h2 class="visually-hidden">How it works</h2>
+        <div class="how-it-image">
+          <picture>
+            <source
+              srcset="./images/woman.jpg 1x, ./images/woman-2x.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/woman-tablet.jpg    1x,
+                ./images/woman-tablet-2x.jpg 2x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="
+                ./images/woman-mobile.jpg    1x,
+                ./images/woman-mobile-2x.jpg 2x
+              "
+              media="(min-width: 320px)"
+            />
+            <img
+              src="./images/woman.jpg"
+              alt="Woman"
+              class="how-it-image-woman"
+              width="440"
+            />
+          </picture>
+        </div>
+        <div class="how-it-about">
+          <div class="how-it-about-menu">
+            <h2 class="how-it-title">
+              To order your
+              <span class="how-it-title-color">vegetable</span> basket, simply
+              follow these <span class="how-it-title-color">easy steps</span>
+            </h2>
+            <p class="how-it-text">
+              Our baskets are assembled with care and delivered straight to your
+              doorstep, so you can enjoy the taste of fresh fruit without ever
+              leaving your home.
+            </p>
+            <ol class="how-it-list">
+              <li class="how-it-items">
+                <p class="how-it-items-text">
+                  Just choose
+                  <span class="how-it-items-bold">the vegetable</span> you want
+                  to order by clicking on the checkboxes
+                  <span class="how-it-items-bold">next to it</span>.
+                </p>
+              </li>
+              <li class="how-it-items">
+                <p class="how-it-items-text">
+                  Click on <span class="how-it-items-bold">the basket</span> and
+                  fill out the form.
+                </p>
+              </li>
+              <li class="how-it-items">
+                <p class="how-it-items-text">
+                  Sit back and relax! Your
+                  <span class="how-it-items-bold">fresh vegetables</span> basket
+                  will be delivered.
+                </p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How It Works Bitti -->
+  </body>
+</html>
